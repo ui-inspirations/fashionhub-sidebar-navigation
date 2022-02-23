@@ -42,6 +42,7 @@
     "typescript": "^4.5.4",
     "vitawind": "^2.2.1",
     "vite": "^2.8.0",
-    "vite-plugin-svg-icons": "^2.0.1"
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-webfont-dl": "^1.0.9"
   }
 }

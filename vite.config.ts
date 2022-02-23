@@ -3,6 +3,7 @@ import path from 'node:path'
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
+import { ViteWebfontDownload } from 'vite-plugin-webfont-dl'
 
 /*
 |--------------------------------------------------------------------------
@@ -35,5 +36,8 @@ export default defineConfig({
        */
       // customDomId: '__svg__icons__dom__',
     }),
+    ViteWebfontDownload([
+      'https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap',
+    ]),
   ]
 })
