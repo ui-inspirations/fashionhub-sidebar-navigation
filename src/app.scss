@@ -1,0 +1,92 @@
+@import 'variables';
+
+.sidebar {
+  width: 280px;
+
+  .header {
+    border-bottom-width: 1px;
+
+    .logo-wrapper {
+      .image-container {
+        $size: 40px;
+
+        height: $size;
+        width: $size;
+      }
+
+      .text {
+        /**/
+      }
+    }
+
+    .toggle-size-menu {
+      $size: 30px;
+
+      height: $size;
+      width: $size;
+    }
+  }
+
+  .profile {
+    border-width: 1px;
+
+    .image-container {
+      $size: 40px;
+
+      border-radius: 50%;
+      height: $size;
+      width: $size;
+
+      .image {
+        border-radius: 50%;
+      }
+    }
+
+    .info {
+      .position {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .navigation {
+    .list {
+      .title {
+        font-size: 14px;
+      }
+
+      .element {
+        /**/
+      }
+
+      .link {
+        color: $grey;
+
+        &:hover {
+          background-color: $bgLinkHover;
+          color: $purple;
+
+          .icon {
+            /**/
+          }
+        }
+
+
+        .icon {
+          $size: 25px;
+
+          height: $size;
+          width: $size;
+
+          svg path {
+            fill: $grey;
+          }
+        }
+
+        .text {
+          /**/
+        }
+      }
+    }
+  }
+}
