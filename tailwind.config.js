@@ -12,9 +12,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        app: '#9286ED',
+        app: {
+          general: '#9286ED',
+          gray: '#F8F9FB',
+        },
         purple: '#6956E5',
-        base: '#40424c',
+        base: '#40424C',
+        'gray-divider': '#E8E8E9',
       },
     },
   },
